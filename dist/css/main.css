@@ -386,7 +386,8 @@ img {
 
 #contact-a .msg-input {
   grid-area: message;
-  height: 100px; }
+  height: 100px;
+  color: #000; }
 
 #contact-a .text-input {
   padding: 0.5rem 1rem; }
