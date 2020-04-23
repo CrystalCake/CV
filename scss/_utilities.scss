@@ -7,6 +7,12 @@
   overflow: hidden;
 }
 
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
 // Buttons
 %btn-shared {
   display: inline-block;
