@@ -253,8 +253,7 @@ img {
     #home-b .stats li.stats-title {
       font-size: 1.5rem; }
     #home-b .stats li.stats-number {
-      font-size: 2rem;
-      font-weight: bold; }
+      font-size: 1.2rem; }
   #home-b .stats div {
     padding: 3rem 0; }
     #home-b .stats div:nth-child(odd) {
@@ -345,26 +344,9 @@ img {
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem; }
   #about-c .about-logos img {
-    width: 70%; }
-
-#about-d .testimonials {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 0.5rem; }
-  #about-d .testimonials ul {
-    list-style: none;
-    margin-top: 1rem;
-    display: flex;
-    align-items: center; }
-  #about-d .testimonials p {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 0.5rem; }
-  #about-d .testimonials img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    margin-right: 0.5rem; }
+    width: auto;
+    height: 150px;
+    object-fit: scale-down; }
 
 #resume-b {
   /*--------Accordion 1 Blau -------*/ }
@@ -504,6 +486,8 @@ img {
     margin-right: 0.5rem;
     align-self: center;
     padding-bottom: 1rem; }
+    #resume-d .cert img:hover {
+      opacity: 0.7; }
 
 #contact-a .text-fields {
   display: grid;
@@ -564,6 +548,8 @@ img {
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
         background: #ffbc00; }
+  #main-footer a {
+    color: #fff; }
 
 @media (max-width: 800px) {
   #header-home {
