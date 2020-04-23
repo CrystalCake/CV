@@ -485,7 +485,7 @@ img {
 
 #resume-d .cert {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 0.5rem; }
   #resume-d .cert ul {
     list-style: none;
@@ -501,7 +501,6 @@ img {
     color: #fff; }
   #resume-d .cert img {
     object-fit: cover;
-    height: 10%;
     margin-right: 0.5rem;
     align-self: center;
     padding-bottom: 1rem; }
