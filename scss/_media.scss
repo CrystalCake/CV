@@ -40,7 +40,7 @@
   #home-a .specials,
   #home-b .stats,
   #home-c .process,
-  #about-d .testimonials,
+  #resume-d .cert,
   #contact-b .contact-info,
   .items {
     grid-template-columns: 1fr;
@@ -115,6 +115,37 @@
     &-c {
       h1 {
         font-size: 2rem;
+      }
+    }
+  }
+
+  #resume {
+    &-c {
+      #timeline {
+        ul {
+          li {
+            margin-left: 20px;
+
+            &:nth-child(even) div {
+              left: 70px;
+            }
+
+            &:nth-child(even) div::before {
+              left: -15px;
+              border-width: 8px 16px 8px 0;
+              border-color: transparent $dark-color transparent transparent;
+            }
+
+            &:nth-child(even) div.work::before {
+              left: -15px;
+              border-width: 8px 16px 8px 0;
+              border-color: transparent $work-color transparent transparent;
+            }
+            div {
+              width: calc(100vw - 150px);
+            }
+          }
+        }
       }
     }
   }

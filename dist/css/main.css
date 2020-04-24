@@ -575,7 +575,7 @@ img {
   #home-a .specials,
   #home-b .stats,
   #home-c .process,
-  #about-d .testimonials,
+  #resume-d .cert,
   #contact-b .contact-info,
   .items {
     grid-template-columns: 1fr; }
@@ -603,6 +603,20 @@ img {
       margin-bottom: 0; }
   #contact-c h1 {
     font-size: 2rem; }
+  #resume-c #timeline ul li {
+    margin-left: 20px; }
+    #resume-c #timeline ul li:nth-child(even) div {
+      left: 70px; }
+    #resume-c #timeline ul li:nth-child(even) div::before {
+      left: -15px;
+      border-width: 8px 16px 8px 0;
+      border-color: transparent #333 transparent transparent; }
+    #resume-c #timeline ul li:nth-child(even) div.work::before {
+      left: -15px;
+      border-width: 8px 16px 8px 0;
+      border-color: transparent #555 transparent transparent; }
+    #resume-c #timeline ul li div {
+      width: calc(100vw - 150px); }
   #main-footer {
     height: 7rem; }
     #main-footer .footer-content {
