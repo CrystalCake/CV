@@ -553,7 +553,7 @@ img {
 
 @media (max-width: 1050px) {
   #header-home {
-    height: 30rem; }
+    height: 50rem; }
     #header-home .header-content {
       padding-top: 5rem; }
   #home-a .specials,
