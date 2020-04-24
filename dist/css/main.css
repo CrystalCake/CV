@@ -474,9 +474,14 @@ img {
     overflow: hidden;
     border-radius: 5px;
     padding: 0.5rem; }
+    #resume-d .cert div .cert-title {
+      border: none;
+      height: 2rem;
+      padding: 0;
+      overflow: hidden; }
     #resume-d .cert div .cert-text {
       border: none;
-      height: 100px;
+      height: 1.5rem;
       padding: 0;
       overflow: hidden; }
   #resume-d .cert a {
