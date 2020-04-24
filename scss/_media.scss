@@ -1,9 +1,83 @@
 // Tablet & Smaller
-@media (max-width: 800px) {
+@media (max-width: 1050px) {
   #header-home {
     height: 30rem;
     .header-content {
       padding-top: 5rem;
+    }
+  }
+
+  //Stack Grid Columns
+  #home-a .specials,
+  #home-b .stats,
+  #home-c .process,
+  #resume-d .cert,
+  #contact-b .contact-info,
+  .items {
+    grid-template-columns: 1fr;
+  }
+
+  #about {
+    &-a {
+      .about-info {
+        grid-template-areas:
+          "bioimage"
+          "bio"
+          "aw1"
+          "aw2"
+          "aw3";
+      }
+    }
+
+    &-c {
+      display: none;
+    }
+  }
+
+  #resume {
+    &-c {
+      #timeline {
+        ul {
+          li {
+            margin-left: 20px;
+
+            &:nth-child(even) div {
+              left: 70px;
+            }
+
+            &:nth-child(even) div::before {
+              left: -15px;
+              border-width: 8px 16px 8px 0;
+              border-color: transparent $dark-color transparent transparent;
+            }
+
+            &:nth-child(even) div.work::before {
+              left: -15px;
+              border-width: 8px 16px 8px 0;
+              border-color: transparent $work-color transparent transparent;
+            }
+            div {
+              width: calc(100vw - 150px);
+            }
+          }
+        }
+      }
+    }
+
+    &-d {
+      .cert {
+        & > div {
+          height: 250px;
+          width: 75%;
+          margin: auto;
+          gap: 2rem;
+          margin-bottom: 1rem;
+
+          img {
+            overflow: hidden;
+          }
+        }
+      }
     }
   }
 }

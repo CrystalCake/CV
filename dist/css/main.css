@@ -551,11 +551,44 @@ img {
   #main-footer a {
     color: #fff; }
 
-@media (max-width: 800px) {
+@media (max-width: 1050px) {
   #header-home {
     height: 30rem; }
     #header-home .header-content {
-      padding-top: 5rem; } }
+      padding-top: 5rem; }
+  #home-a .specials,
+  #home-b .stats,
+  #home-c .process,
+  #resume-d .cert,
+  #contact-b .contact-info,
+  .items {
+    grid-template-columns: 1fr; }
+  #about-a .about-info {
+    grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3"; }
+  #about-c {
+    display: none; }
+  #resume-c #timeline ul li {
+    margin-left: 20px; }
+    #resume-c #timeline ul li:nth-child(even) div {
+      left: 70px; }
+    #resume-c #timeline ul li:nth-child(even) div::before {
+      left: -15px;
+      border-width: 8px 16px 8px 0;
+      border-color: transparent #333 transparent transparent; }
+    #resume-c #timeline ul li:nth-child(even) div.work::before {
+      left: -15px;
+      border-width: 8px 16px 8px 0;
+      border-color: transparent #555 transparent transparent; }
+    #resume-c #timeline ul li div {
+      width: calc(100vw - 150px); }
+  #resume-d .cert > div {
+    height: 250px;
+    width: 75%;
+    margin: auto;
+    gap: 2rem;
+    margin-bottom: 1rem; }
+    #resume-d .cert > div img {
+      overflow: hidden; } }
 
 @media (max-width: 500px) {
   #main-nav {
