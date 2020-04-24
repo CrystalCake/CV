@@ -439,18 +439,18 @@ img {
       grid-template-columns: repeat(4, 1fr);
       gap: 0.5rem;
 
-      ul {
-        list-style: none;
-        margin-top: 1rem;
-        display: flex;
-        align-items: center;
-      }
-
       div {
         border: 1px solid $medium-color;
         overflow: hidden;
         border-radius: 5px;
         padding: 0.5rem;
+
+        .cert-text {
+          border: none;
+          height: 100px;
+          padding: 0;
+          overflow: hidden;
+        }
       }
 
       a {

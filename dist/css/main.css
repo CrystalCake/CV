@@ -469,16 +469,16 @@ img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.5rem; }
-  #resume-d .cert ul {
-    list-style: none;
-    margin-top: 1rem;
-    display: flex;
-    align-items: center; }
   #resume-d .cert div {
     border: 1px solid #ccc;
     overflow: hidden;
     border-radius: 5px;
     padding: 0.5rem; }
+    #resume-d .cert div .cert-text {
+      border: none;
+      height: 100px;
+      padding: 0;
+      overflow: hidden; }
   #resume-d .cert a {
     color: #fff; }
   #resume-d .cert img {
