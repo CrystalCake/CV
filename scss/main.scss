@@ -533,6 +533,35 @@ img {
   }
 }
 
+#imp {
+  h1,
+  h2,
+  h3,
+  p {
+    padding: 0.5rem 2rem;
+  }
+
+  &-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+  }
+}
+
+#dsgvo {
+  h1,
+  h2,
+  h3,
+  p {
+    padding: 0.5rem 2rem;
+  }
+
+  ul li {
+    list-style: none;
+    padding: 0.25rem 2rem;
+  }
+}
+
 // Footer
 #main-footer {
   background: $dark-color;
