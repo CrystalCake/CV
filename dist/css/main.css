@@ -533,26 +533,28 @@ img {
   #contact-c h1 {
     font-size: 3rem; }
 
-#imp h1,
-#imp h2,
-#imp h3,
-#imp p {
-  padding: 0.5rem 2rem; }
+#imp {
+  background: #f4f4f4; }
+  #imp h1,
+  #imp h2,
+  #imp h3,
+  #imp p {
+    padding: 0.5rem 2rem; }
+  #imp-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center; }
 
-#imp-content {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  text-align: center; }
-
-#dsgvo h1,
-#dsgvo h2,
-#dsgvo h3,
-#dsgvo p {
-  padding: 0.5rem 2rem; }
-
-#dsgvo ul li {
-  list-style: none;
-  padding: 0.25rem 2rem; }
+#dsgvo {
+  background: #f4f4f4; }
+  #dsgvo h1,
+  #dsgvo h2,
+  #dsgvo h3,
+  #dsgvo p {
+    padding: 0.5rem 2rem; }
+  #dsgvo ul li {
+    list-style: none;
+    padding: 0.25rem 2rem; }
 
 #main-footer {
   background: #333;
