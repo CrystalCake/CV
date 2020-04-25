@@ -681,7 +681,9 @@ img {
     #main-footer .footer-content {
       flex-direction: column;
       padding: 1rem;
-      height: 5rem; } }
+      height: 5rem; }
+      #main-footer .footer-content a {
+        padding-bottom: 0.2rem; } }
 
 @media (max-height: 580px) {
   #header-home .header-content {
