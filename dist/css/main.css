@@ -219,6 +219,8 @@ img {
       border-color: #ccc; }
     #main-nav a.current {
       border-color: #ffbc00; }
+  #main-nav .logo-link {
+    border: none; }
 
 #header-home {
   background: url("../img/showcase-2.jpg") no-repeat center right/cover;
