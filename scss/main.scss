@@ -212,7 +212,7 @@ img {
       gap: 1.2rem;
     }
 
-    .bio-iamge {
+    .bio-image {
       grid-area: bioimage;
     }
 
@@ -261,6 +261,82 @@ img {
 
   &-c {
     .about-logos {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2rem;
+
+      img {
+        width: auto;
+        height: 150px;
+        object-fit: scale-down;
+      }
+    }
+  }
+}
+
+// Blog Sections
+#blog {
+  &-a {
+    .blog-info {
+      display: grid;
+      grid-template-areas:
+        "bioimage bio bio"
+        "aw1 aw2 aw3";
+      gap: 1.2rem;
+    }
+
+    .bio-image {
+      grid-area: bioimage;
+    }
+
+    .bio {
+      grid-area: bio;
+      border-left: 3px solid $main-color;
+      padding: 0.8rem 1.8rem;
+
+      .blog-info-generel {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 3rem;
+
+        div {
+          display: flex;
+          padding: 1rem;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+          .fab {
+            padding-right: 0.5rem;
+          }
+          .fas {
+            padding-right: 0.5rem;
+          }
+        }
+      }
+    }
+
+    .award-1 {
+      grid-area: aw1;
+    }
+
+    .award-2 {
+      grid-area: aw2;
+    }
+
+    .award-3 {
+      grid-area: aw3;
+    }
+
+    .award-1 .fas,
+    .award-2 .fas,
+    .award-3 .fas{
+      color: $main-color;
+      margin: 1rem;
+    }
+  }
+
+  &-c {
+    .blog-logos {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 2rem;

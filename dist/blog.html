@@ -14,7 +14,7 @@
     />
     <link rel="stylesheet" href="./css/lightbox.min.css" />
     <link rel="stylesheet" href="./css/main.css" />
-    <title>My Resume | Lukas Weber</title>
+    <title>Project-Blog | Lukas Weber</title>
   </head>
 
   <body>
@@ -28,381 +28,148 @@
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="resume.html">Resume</a></li>
-            <li><a href="about.html">About</a></li>
             <li><a href="blog.html" class="current">Blog</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <!-- Section A: About Me -->
-    <section id="about-a" class="text-center py-3">
+    <!-- Section A: Blog -->
+    <section id="blog-a" class="text-center py-3">
       <div class="container">
-        <h2 class="section-title">About Me</h2>
+        <h2 class="section-title">Project-Blog</h2>
         <div class="bottom-line"></div>
-        <p class="lead">Let Me Tell You About Myself</p>
-        <div class="about-info">
-          <img src="./img/about.jpg" alt="" class="bio-image" />
+        <p class="lead">My Projects</p>
+        <div class="blog-info">
+          <img src="./img/projects/redox/redox_8.jpg" alt="" class="bio-image" />
           <div class="bio bg-dark">
-            <h4></h4>
+            <h4>Redox-Keyboard</h4>
+            <div class="bottom-line"></div>
             <p>
-              My name is Lukas Weber and I would like to tell you a little bit
-              about me. I am currently studying for my Master's degree in
-              Business Informatics at Reutlingen University. Besides that I work
-              as a working student in the team for public clients at Advanced
-              UniByte GmbH in Metzingen. My spare time I spend with programming
-              (mainly web programming) and sports. In 2019 I ran the Stockholm
-              Marathon. I am always looking for new challenges, cracking them is
-              a lot of fun.
+              The redox keyboard is an ergonomic keyboard that consists of two parts. 
+              Each half is powered by an Arduino Pro micro. 
+              In theory, the design is intended to prevent the hands from being forced into an unnatural position when typing. 
+              The housing is printed using a 3D printer. 
+              The switches used are cherrx brown.
             </p>
-            <div class="about-info-generel">
+            <div class="blog-info-generel">
               <div>
-                <i class="fas fa-map-marker-alt"></i>
-                <p>Reutlingen, Deutschland</p>
+                <i class="fab fa-github"></i>
+                <a class="project-links" href="https://github.com/mattdibi/redox-keyboard/tree/master/redox" target="_blank">Redox rev 1.0</a>
               </div>
               <div>
-                <i class="fas fa-birthday-cake"></i>
-                <p>14. October 1996</p>
-              </div>
-            </div>
-          </div>
-          <div class="award-1">
-            <i class="fas fa-award fa-3x"></i>
-            <h3>Technik-Akademie Tübingen</h3>
-            <p>
-              The Technology Academy is part of the support programme for
-              particularly gifted pupils set up by the Baden-Württemberg
-              Ministry of Culture, Youth and Sports.
-            </p>
-          </div>
-          <div class="award-2">
-            <i class="fas fa-award fa-3x"></i>
-            <h3>Schüler-Ingenieurs-Akademie</h3>
-            <p>
-              The Schüler-Ingenieurs-Akademie is a cooperation between JKG and
-              companies in the Reutlingen area. Implementation of a project for
-              independent Development of a hydrogen powered car.
-            </p>
-          </div>
-          <div class="award-3">
-            <i class="fas fa-award fa-3x"></i>
-            <h3>Projekt LuMaPa</h3>
-            <p>
-              Development of a web-based 3D browser game. Based on the classic
-              Temple Run.
-            </p>
-            <a href="http://www.lumapa-game.de" target="blank"
-              >lumapa-game.de</a
-            >
-          </div>
-          <div class="award-3">
-            <i class="fas fa-award fa-3x"></i>
-            <h3>Projekt LuMaPa</h3>
-            <p>
-              Development of a web-based 3D browser game. Based on the classic
-              Temple Run.
-            </p>
-            <a href="http://www.lumapa-game.de" target="blank"
-              >lumapa-game.de</a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section B: Skills Prograssbar -->
-    <section id="resume-b" class="bg-dark py-3">
-      <div class="container">
-        <h2 class="section-title">Skills</h2>
-        <div class="bottom-line"></div>
-        <p class="lead text-center">What I Can Do</p>
-        <div class="wrap">
-          <div class="accordion">
-            <div>
-              <input type="radio" name="acc" id="skills" checked="" />
-              <label for="skills">Skills</label>
-              <ul class="panel">
-                <li>
-                  <h4>Microsoft Office</h4>
-                  <div class="progress">
-                    <div style="width: 95%;"></div>
-                  </div>
-                </li>
-                <li>
-                  <h4>business administration</h4>
-                  <div class="progress">
-                    <div style="width: 75%;"></div>
-                  </div>
-                </li>
-                <li>
-                  <h4>Software Engineering</h4>
-                  <div class="progress">
-                    <div style="width: 80%;"></div>
-                  </div>
-                </li>
-                <li>
-                  <h4>accounting</h4>
-                  <div class="progress">
-                    <div style="width: 70%;"></div>
-                  </div>
-                </li>
-                <li>
-                  <h4>Ten-Finger-Typing</h4>
-                  <div class="progress">
-                    <div style="width: 100%;"></div>
-                  </div>
-                </li>
-                <li>
-                  <h4>Project Management</h4>
-                  <div class="progress">
-                    <div style="width: 80%;"></div>
-                  </div>
-                </li>
+                <ul>
+                  <li><i class="fab fa-readme"></i><a class="project-links" href="" target="_blank">read more</a></li>
+                  <li><i class="fas fa-calendar-alt"></i><a class="project-links" href="" target="_blank">2021</a></li>
               </ul>
             </div>
-            <div>
-              <input type="radio" name="acc" id="it-skills" />
-              <label for="it-skills">IT-Skills</label>
-              <ul class="panel">
-                <li>
-                  <h4>HTML</h4>
-                  <div class="progress">
-                    <div style="width: 95%;"></div>
-                  </div>
-                </li>
-                <li>
-                  <h4>Java / Python</h4>
-                  <div class="progress">
-                    <div style="width: 65%;"></div>
-                  </div>
-                </li>
-                <li>
-                  <h4>CSS</h4>
-                  <div class="progress">
-                    <div style="width: 95%;"></div>
-                  </div>
-                </li>
-                <li>
-                  <h4>PHP</h4>
-                  <div class="progress">
-                    <div style="width: 70%;"></div>
-                  </div>
-                </li>
-                <li>
-                  <h4>JavaScript</h4>
-                  <div class="progress">
-                    <div style="width: 75%;"></div>
-                  </div>
-                </li>
-                <li>
-                  <h4>RDBMS</h4>
-                  <div class="progress">
-                    <div style="width: 60%;"></div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <input type="radio" name="acc" id="languages" />
-              <label for="languages">Languages</label>
-              <ul class="panel">
-                <li>
-                  <h4>German</h4>
-                  <div class="progress">
-                    <div style="width: 100%;"></div>
-                  </div>
-                </li>
-                <li>
-                  <h4>English</h4>
-                  <div class="progress">
-                    <div style="width: 80%;"></div>
-                  </div>
-                </li>
-                <li>
-                  <h4>French</h4>
-                  <div class="progress">
-                    <div style="width: 40%;"></div>
-                  </div>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Section B: Education Time Line -->
-    <section id="resume-c" class="bg-light py-3">
-      <div class="container">
-        <h2 class="section-title">Education & Experience</h2>
-        <div class="bottom-line"></div>
-        <div id="timeline">
-          <ul>
-            <li>
-              <div class="school">
-                <h4>
-                  <i class="fas fa-chevron-right"></i> Sept. 2002 - Juni 2008
-                  <i class="fas fa-university fa-2x" style="float: right;"></i>
-                </h4>
-                <h3>
-                  primary school
-                </h3>
-                <p>Hoffmannschule Betzingen, Germany</p>
-                <a href="http://www.hoffmannschule-betzingen.de/"
-                  >hoffmannschule-betzingen.de</a
-                >
+        <div class="blog-info">
+          <img src="./img/projects/ender-3 - Noctua Upgrade/3.jpg" alt="" class="bio-image" />
+          <div class="bio bg-dark">
+            <h4>Ender 3-Fan Upgrade</h4>
+            <div class="bottom-line"></div>
+            <p>
+              Converting the Ender 3 to Noctua fans has the advantage that the 3D printer is much quieter. 
+              This effect is also reinforced by the fact that you use larger fans.
+            </p>
+            <div class="blog-info-generel">
+              <div>
+                <i class="fas fa-globe"></i>
+                <a class="project-links" href="https://www.instructables.com/Ender-3-Silent-Fan-Replacement-Guide/" target="_blank">Ender 3 - Silent Fan Replacement Guide </a>
               </div>
-            </li>
-            <li>
-              <div class="school">
-                <h4>
-                  <i class="fas fa-chevron-right"></i> Sept. 2006 - Juni 2015
-                  <i class="fas fa-university fa-2x" style="float: right;"></i>
-                </h4>
-                <h3>
-                  Abitur
-                </h3>
-                <p>Johannes-Kepler-Gymnasium Reutlingen, Germany</p>
-                <a href="https://www.kepi-reutlingen.de/">kepi-reutlingen.de</a>
-              </div>
-            </li>
-            <li>
-              <div class="school">
-                <h4>
-                  <i class="fas fa-chevron-right"></i> Oct. 2015 - Feb. 2019
-                  <i class="fas fa-university fa-2x" style="float: right;"></i>
-                </h4>
-                <h3>
-                  b.sc. business informatics
-                </h3>
-                <p>Reutlingen University, Germany</p>
-                <a
-                  href="https://www.inf.reutlingen-university.de/de/bachelor/wirtschaftsinformatik-wi/was-ist-wi/"
-                  >inf.reutlingen-university.de</a
-                >
-              </div>
-            </li>
-            <li>
-              <div class="work">
-                <h4>
-                  <i class="fas fa-chevron-right"></i> April 2017 - Oct. 2017
-                  <i class="fas fa-briefcase fa-2x" style="float: right;"></i>
-                </h4>
-                <h3>
-                  Internship at Deutsche Telekom
-                </h3>
-                <p>Bonn, Germany</p>
-                <a href="https://www.telekom.de/start">telekom.de</a>
-              </div>
-            </li>
-            <li>
-              <div class="school">
-                <h4>
-                  <i class="fas fa-chevron-right"></i> March. 2019 - Ongoing
-                  <i class="fas fa-university fa-2x" style="float: right;"></i>
-                </h4>
-                <h3>
-                  m.sc. business informatics
-                </h3>
-                <p>Reutlingen University, Germany</p>
-                <a
-                  href="https://www.inf.reutlingen-university.de/de/bachelor/wirtschaftsinformatik-wi/was-ist-wi/"
-                  >inf.reutlingen-university.de</a
-                >
-              </div>
-            </li>
-            <li>
-              <div class="work">
-                <h4>
-                  <i class="fas fa-chevron-right"></i> April 2018 - Ongoing
-                  <i class="fas fa-briefcase fa-2x" style="float: right;"></i>
-                </h4>
-                <h3>
-                  student trainee at Advanced UniByte
-                </h3>
-                <p>Metzingen, Germany</p>
-                <a href="https://www.au.de/">au.de</a>
-              </div>
-            </li>
-          </ul>
+              <div>
+                <ul>
+                  <li><i class="fab fa-readme"></i><a class="project-links" href="" target="_blank">read more</a></li>
+                  <li><i class="fas fa-calendar-alt"></i><a class="project-links" href="" target="_blank">2021</a></li>
+              </ul>
+            </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-
-    <section id="resume-d" class="bg-dark py-4">
-      <div class="container">
-        <h2 class="section-title">Certificates</h2>
-        <div class="bottom-line"></div>
-        <p class="lead text-center">Take a look...</p>
-        <div class="cert">
-          <div>
-            <div class="cert-title">
-              <h2>Technik-Akademie Tübingen</h2>
+        <div class="blog-info">
+          <img src="./img/projects/ender-3/1.jpg" alt="" class="bio-image" />
+          <div class="bio bg-dark">
+            <h4>Ender 3</h4>
+            <div class="bottom-line"></div>
+            <p>
+              The ender 3 is a 3D printer from Creality. Creality is a 3D printer manufacturer based in China that makes filament printers and resin printers. 
+              Their product line includes DIY kits for hobby use as well as printers for industrial use.
+              Creality gained notoriety when it released the Ender 3 budget 3D printer in March 2018. 
+              In July 2018, Creality released the Ender 3 printer to the open source domain, including the release of all hardware specifications, CAD files, board schematics and firmware files. 
+              The Ender 3 was described as an affordable 3D printer option for hobbyist use, and set a benchmark for affordable hobbyist 3D printers at the time of its release in 2018.
+              Translated with 
+            </p>
+            <div class="blog-info-generel">
+              <div>
+                <i class="fas fa-globe"></i>
+                <a class="project-links" href="https://www.creality3dofficial.com/de/products/creality-ender-3-pro-3d-printer" target="_blank">Ender 3</a>
+              </div>
+              <div>
+                <ul>
+                  <li><i class="fab fa-readme"></i><a class="project-links" href="" target="_blank">read more</a></li>
+                  <li><i class="fas fa-calendar-alt"></i><a class="project-links" href="" target="_blank">2020</a></li>
+              </ul>
             </div>
-            <div class="cert-text">
-              <a href="http://technik-akademie-tuebingen.de/" target="blank"
-                >technik-akademie-tuebingen.de</a
-              >
             </div>
-            <a
-              href="./img/certificates/cert-1.jpg"
-              data-lightbox="cases"
-              data-title="Technik-Akademie Tübingen - 2012"
-            >
-              <img src="./img/certificates/cert-1.jpg" alt="" />
-            </a>
           </div>
-          <div>
-            <div class="cert-title">
-              <h2>Business English</h2>
+        </div>
+        <div class="blog-info">
+          <img src="./img/projects/awtrix/1.jpg" alt="" class="bio-image" />
+          <div class="bio bg-dark">
+            <h4>AWTRIX</h4>
+            <div class="bottom-line"></div>
+            <p>
+              AWsome maTRIX is a full color dot matrix that displays applications from simple time display to Fortnite account statistics.
+              The technology behind it is based on few components, so it can be easily replicated by users with less technical skills. 
+              The project. The matrix (32 × 8 WS2812B LEDs) is driven by the ESP8266 WLAN microcontroller, which communicates with a Java-based host. 
+              Almost any existing system based on Windows, MacOS or Linux can serve as a host.
+            </p>
+            <div class="blog-info-generel">
+              <div>
+                <i class="fas fa-globe"></i>
+                <a class="project-links" href="https://awtrixdocs.blueforcer.de/#/en-en/README" target="_blank">AWTRIX - Blueforcer </a>
+              </div>
+              <div>
+                <ul>
+                  <li><i class="fab fa-readme"></i><a class="project-links" href="" target="_blank">read more</a></li>
+                  <li><i class="fas fa-calendar-alt"></i><a class="project-links" href="" target="_blank">2019</a></li>
+              </ul>
             </div>
-            <div class="cert-text">
-              <p>London Chamber of Commerce and Industry</p>
             </div>
-            <a
-              href="./img/certificates/cert-2.jpg"
-              data-lightbox="cases"
-              data-title="Business English - Level 2 from the London Chamber of Commerce and Industry"
-            >
-              <img src="./img/certificates/cert-2.jpg" alt="" />
-            </a>
           </div>
-          <div>
-            <div class="cert-title">
-              <h2>S.I.A.</h2>
+        </div>
+        <div class="blog-info">
+          <img src="./img/projects/magicmirror/2.png" alt="" class="bio-image" />
+          <div class="bio bg-dark">
+            <h4>Magic-Mirror²</h4>
+            <div class="bottom-line"></div>
+            <p>
+              MagicMirror² is an open source modular smart mirror platform. 
+              With a growing list of installable modules, the MagicMirror² allows you to convert your hallway or bathroom mirror into your personal assistant. 
+              MagicMirror² is built by the creator of the original MagicMirror with the incredible help of a growing community of contributors.              
+              MagicMirror² focuses on a modular plugin system and uses Electron as an application wrapper. So no more web server or browser installs necessary!
+            </p>
+            <div class="blog-info-generel">
+              <div>
+                <ul>
+                  <li><i class="fas fa-globe"></i>
+                  <a class="project-links" href="https://magicmirror.builders/" target="_blank">MagicMirror² - Website</a></li>
+                  <li><i class="fab fa-github"></i>
+                  <a class="project-links" href="https://github.com/MichMich/MagicMirror" target="_blank">MagicMirror² - Github</a></li>
+                </ul>
+              </div>
+              <div>
+                  <ul>
+                    <li><i class="fab fa-readme"></i><a class="project-links" href="" target="_blank">read more</a></li>
+                    <li><i class="fas fa-calendar-alt"></i><a class="project-links" href="" target="_blank">2018</a></li>
+                </ul>
+              </div>
             </div>
-            <div class="cert-text">
-              <a href="http://www.sia.jkg-reutlingen.de/" target="blank"
-                >sia.jkg-reutlingen.de</a
-              >
-            </div>
-            <a
-              href="./img/certificates/cert-3.jpg"
-              data-lightbox="cases"
-              data-title="Schüler-Ingenieurs-Akademie (SIA) Reutlingen II - 2013"
-            >
-              <img src="./img/certificates/cert-3.jpg" alt="" />
-            </a>
-          </div>
-          <div>
-            <div class="cert-title">
-              <h2>NetApp Clustered Data</h2>
-            </div>
-            <div class="cert-text">
-              <a
-                href="https://www.au.de/veranstaltungen/trainings-seminare/netapp-cdot-basis/"
-                target="blank"
-                >au.de/veranstaltungen</a
-              >
-            </div>
-            <a
-              href="./img/certificates/cert-4.jpg"
-              data-lightbox="cases"
-              data-title="NetApp Clustered Data OnTap Basics - Administration & Troubleshooting"
-            >
-              <img src="./img/certificates/cert-4.jpg" alt="" />
-            </a>
           </div>
         </div>
       </div>

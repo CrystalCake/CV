@@ -102,6 +102,10 @@ input[class^="btn-"]:hover {
   display: block;
   margin: 0 auto 1rem auto; }
 
+.project-links {
+  text-decoration: none;
+  color: #f4f4f4; }
+
 .items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -306,7 +310,7 @@ img {
   grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
   gap: 1.2rem; }
 
-#about-a .bio-iamge {
+#about-a .bio-image {
   grid-area: bioimage; }
 
 #about-a .bio {
@@ -346,6 +350,57 @@ img {
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem; }
   #about-c .about-logos img {
+    width: auto;
+    height: 150px;
+    object-fit: scale-down; }
+
+#blog-a .blog-info {
+  display: grid;
+  grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
+  gap: 1.2rem; }
+
+#blog-a .bio-image {
+  grid-area: bioimage; }
+
+#blog-a .bio {
+  grid-area: bio;
+  border-left: 3px solid #ffbc00;
+  padding: 0.8rem 1.8rem; }
+  #blog-a .bio .blog-info-generel {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 3rem; }
+    #blog-a .bio .blog-info-generel div {
+      display: flex;
+      padding: 1rem;
+      text-align: center;
+      justify-content: center;
+      align-items: center; }
+      #blog-a .bio .blog-info-generel div .fab {
+        padding-right: 0.5rem; }
+      #blog-a .bio .blog-info-generel div .fas {
+        padding-right: 0.5rem; }
+
+#blog-a .award-1 {
+  grid-area: aw1; }
+
+#blog-a .award-2 {
+  grid-area: aw2; }
+
+#blog-a .award-3 {
+  grid-area: aw3; }
+
+#blog-a .award-1 .fas,
+#blog-a .award-2 .fas,
+#blog-a .award-3 .fas {
+  color: #ffbc00;
+  margin: 1rem; }
+
+#blog-c .blog-logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem; }
+  #blog-c .blog-logos img {
     width: auto;
     height: 150px;
     object-fit: scale-down; }
