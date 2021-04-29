@@ -283,10 +283,20 @@ img {
         "bioimage bio bio"
         "aw1 aw2 aw3";
       gap: 1.2rem;
+
+      .post-1 {
+        background-color: $light-color;
+      }
+      .post-2 {
+        background-color: $medium-color;
+      }
     }
 
     .bio-image {
       grid-area: bioimage;
+      width: 300px;
+      max-height: 300px;
+      margin: auto;
     }
 
     .bio {
