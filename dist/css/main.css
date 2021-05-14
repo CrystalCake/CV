@@ -531,7 +531,7 @@ img {
 
 #resume-d .cert {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 0.5rem; }
   #resume-d .cert div {
     border: 1px solid #ccc;
